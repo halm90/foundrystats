@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+mysql_connector_python
+requests
+sortedcontainers
+urllib3

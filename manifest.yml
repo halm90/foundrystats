@@ -1,0 +1,13 @@
+---
+applications:
+- name: test-foundrystats
+  memory: 4096M
+  buildpack: python_buildpack
+  instances: 1
+  health-check-type: process
+  services:
+    - cf-fetcher-sql
+  env:
+    BUSINESS_DOMAIN: 'Technology Infra & Platform'
+    BUSINESS_SERVICE: 'CloudFoundry'
+    SUPPORT_DL: 'CloudFoundryTeam@T-Mobile.com'
