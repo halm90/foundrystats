@@ -1,0 +1,6 @@
+*-manifest.yml
+__pycache__
+tags
+*.swp
+.idea/*
+*.pyc
